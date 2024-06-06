@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/api/v1/welcome', (req, res) => {
-  res.send('Welcome, Docker');
+  res.send('Welcome, Docker, Ready to deploy');
 });
 
 app.listen(port, () => {
